@@ -1,0 +1,99 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.col4{
+    flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+}
+
+@media screen and (min-width: 768px) {
+    .col4{
+        flex-basis: 20%;
+        max-width: 20%;
+    }
+
+    .opa img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .none{
+        display: none;
+    }
+}
+
+
+
+
+
+.dark-text{
+    color: black !important;
+}
+
+.bi-chevron-down{
+    font-size: 15px;
+}
+
+.jumbotron1{
+    background-image: url('img/jumbo-bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+
+.jumbotron2{
+    background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+
+.btn{
+    border-radius: 100px !important;
+}
+
+.btn-brown{
+    background-color: brown !important;
+    border-color: brown !important;
+}
+
+.img100{
+    width: 100%;
+}
+
+.radius20{
+    border-radius: 20px;
+}
+
+.bord-h:hover{
+    border: 3px solid black;
+}
+
+.title{
+    font-weight: 400;
+}
+
+.opa{
+    opacity: 0.6;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+.opa:hover{
+    opacity: 1;
+    border-bottom: 3px solid #0d6efd;
+}
+
+.micro-text{
+    font-size: 13px;
+}
+
+
+
+
+
+.bg-1{
+    background-color: #202020;
+}
