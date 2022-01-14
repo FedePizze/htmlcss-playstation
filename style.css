@@ -90,13 +90,27 @@
     width: 100%;
 }
 
+.img90{
+    width: 95%;
+}
+
 .radius20{
     border-radius: 20px;
 }
 
-.bord-h:hover{
-    border: 3px solid black;
+.radius30{
+    border-radius: 30px;
 }
+
+.bord-h{
+    border: 2px solid rgba(255, 0, 0, 0);
+    padding: 7px 0;
+}
+
+.bord-h:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+
 
 .title{
     font-weight: 400;
@@ -146,6 +160,23 @@
     color: white;
 }
 
+.cover-ret{
+    background-image: url('img/returnal-listing-thumb-01-ps5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.cover-rat-cla{
+    background-image: url('img/ratchet-and-clank-rift-apart-keyart.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.bs{
+    --bs-gutter-x: 0 !important;
+}
+
 
 
 
@@ -153,3 +184,8 @@
 .bg-1{
     background-color: #202020;
 }
+
+.bg-2{
+    background-color: #00439c;
+}
+
