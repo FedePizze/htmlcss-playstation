@@ -15,7 +15,7 @@
         max-width: 20%;
     }
 
-    .opa img{
+    [class*=opa] img{
         width: 50%;
     }
 }
@@ -28,7 +28,6 @@
     .img2{
         display: none;
     }
-    
 }
 
 
@@ -112,13 +111,16 @@
 
 .opa{
     opacity: 0.6;
-    box-sizing: border-box;
-    height: 190px;
+    border-bottom: 3px solid rgba(11, 94, 2015, 0);
+}
+
+.opa2{
+    opacity: 1;
+    border-bottom: 3px solid rgba(11, 94, 2015, 1);
 }
 
 .opa:hover{
-    opacity: 1;
-    border-bottom: 3px solid #0d6efd;
+    border-bottom: 3px solid rgba(11, 94, 2015, 1);
 }
 
 .micro-text{
@@ -160,7 +162,6 @@
     background-size: cover;
 }
 
-
 .cover-rat-cla{
     background-image: url('img/ratchet-and-clank-rift-apart-keyart.jpg');
     background-position: center;
@@ -175,6 +176,15 @@
     border: none !important;
     border-radius: 0 !important;
     margin: 0 !important;
+}
+
+button{
+    outline: 3px solid rgba(255, 255, 255, 0);
+    outline-offset: -6px;
+}
+
+button:hover{
+    outline: 3px solid rgba(255, 255, 255, 1);
 }
 
 
